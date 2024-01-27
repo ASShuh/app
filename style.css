@@ -1,0 +1,110 @@
+.container {
+    width: 700px;
+    margin: 0 auto;
+    box-shadow: 5px 5px 10px #bebebe,
+                -5px -5px 10px #E0F0FD;
+    padding: 30px 20px;
+    background-color: white;
+}
+body {
+    background-color: #E0F0FD;
+    padding: 0 10px;
+}
+.names {
+    padding: 50px 1px;
+}
+#Middlename {
+    margin: 0 5px;
+    width: 200px;
+    height: 40px;
+}
+#Firstname {
+    width: 200px;
+    height: 40px;
+}
+#Lastname {
+    width: 200px;
+    height: 40px;
+}
+#mid {
+    margin: 0 200px;
+}
+/* .forsection { 
+     padding: 30px 0px; 
+ } */
+#sm {
+    width: 300px;
+    height: 40px;
+}
+#kg {
+    width: 300px;
+    height: 40px;
+    margin-left: 20px;
+}
+#weight {
+    margin-left: 282px;
+}
+#date {
+    width: 100px;
+    height: 30px;
+}
+.Current_address {
+    margin-bottom: 20px;
+}
+#Street_addressline, #Street_addressline2 , #Postal {
+    width: 650px;
+    height: 40px;
+}
+#city {
+    width: 300px;
+    height: 40px;
+}
+#state {
+    width: 300px;
+    height: 40px;
+    margin-left: 20px;
+}
+#Mamlakat {
+    margin-left: 302px;
+}
+.gmail {
+    display: inline-block;
+}
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+#number {
+    width: 300px;
+    height: 40px;
+}
+#son {
+    width: 300px;
+    height: 40px;
+}
+#email {
+    width: 300px;
+    height: 40px;
+}
+#Linkedin {
+    width: 300px;
+    height: 40px;
+}
+table {
+    width: 70%;
+    border-collapse: collapse;
+}
+th {
+    border: 1px solid black;
+    padding: 5px;
+}
+td {
+    text-align: center;
+    border: 1px solid black;
+    padding: 5px;
+}
+.button {
+    text-align: center;
+}

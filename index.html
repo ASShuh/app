@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/png" href="./icon.png">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Job Application</h1>
+            <p>Please complete the form below to apply for a position with us</p>
+        </header>
+        <hr>
+        <section>
+            
+            <form action="server.php" method="GET">
+                <h3>
+                    Full name:
+                </h3>
+                <input type="text" name="Firstname" id="Firstname">
+                <input type="text" name="Middlename" id="Middlename">
+                <input type="text" name="Lastname" id="Lastname">
+                <br>
+                <label for="Firstname" class="names">First Name</label>
+                <label for="Middlename" id="mid">Middle Name</label>
+                <label for="Lastname" id="last">Last Name</label>
+                <h3 >
+                     Body Size:
+                </h3>
+                <input type="text" name="sm" id="sm">
+                <input type="text" name="kg" id="kg"><br>
+                <label for="sm" class="names">Height</label>
+                <label for="kg" id="weight">Weight</label>
+                <h3>Birth Date</h3>
+                <input type="date" name="date" id="date">
+                <label for="date">Enter your birth date</label>
+                <h3>Family Status</h3>
+                <input type="radio" name="status" value="divorced">
+                <label for="divorced">Divorced</label><br>
+                <input type="radio" name="status" value="married">
+                <label for="married">Married</label><br>
+                <input type="radio" name="status" value="single">
+                <label for="single">Single</label><br>
+                <input type="radio" name="status" value="other">
+                <label for="other">other</label>
+                <div class="Current_address">
+                    <h3>Current Address</h3>
+                    <input type="text" name="Street_addressline" id="Street_addressline"><br>
+                    <label for="Street_addressline">Street Address </label><br><br>
+                    <input type="text" name="Street_addressline2" id="Street_addressline2"><br>
+                    <label for="Street_addressline2">Street Address 2 </label><br><br>
+                    <input type="text" name="city" id="city">
+                    <input type="text" name="state" id="state"><br>
+                    <label for="city" id="shahar">City</label>
+                    <label for="state" id="Mamlakat">State / Province</label><br><br>
+                    <input type="text" name="Postal" id="Postal"><br>
+                    <label for="Postal">Postal / Zip Code </label>
+                </div>
+                <div class="box">
+                    <div class="gmail">
+                        <h3>Email Address</h3>
+                        <input type="email" name="email" id="email"><br>
+                        <label for="email">example@example.com</label>
+                        <h3>LinkedIn</h3>
+                        <input type="text" name="Linkedin" id="Linkedin"><br>                        
+                    </div>
+                    <div>
+                        <h3>Phone Number</h3>
+                        <input type="text" name="numbers" id="number"><br>
+                        <label for="number">Phone Number</label>
+                        <h3>Experience</h3>
+                        <input type="number" name="son" id="son"><br>
+                        <label for="son">Years</label>
+                    </div>
+                </div>
+                <div>
+                    <label for="apply"><b>Position Applied</b></label>
+                    <select name="apply" id="apply">
+                        <option value="0">Please Select</option>
+                        <option value="1">Marketing Specialist</option>
+                        <option value="2">Sales Manager</option>
+                        <option value="3">Product Lead</option>
+                        <option value="4">Developer</option>
+                    </select>                   
+                    <label for="eshitish"><b>How did you hear about us</b></label>
+                    <select name="eshitish" id="eshitish">
+                        <option value="0">Please Select</option>
+                        <option value="1">LinkedIn</option>
+                        <option value="2">Event</option>
+                        <option value="3">Social Media</option>
+                        <option value="4">Company Website</option>
+                        <option value="5">family / Friend</option>
+                        <option value="6">Other</option>
+                    </select><br><br>
+                    <label for="boshlash"><b>Available Start Date</b></label>
+                    <input type="date" name="boshlash" id="boshlash">
+                </div>
+                <br><br>
+                <div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>
+
+                                </th>
+                                <th>
+                                    Beginner
+                                </th>
+                                <th>
+                                    Elementary
+                                </th>
+                                <th>
+                                    Advanced
+                                </th>
+                                <th>
+                                    Expert
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    Excel
+                                </td>
+                                <td>
+                                    <input type="radio" name="skills">
+                                </td>
+                                <td>
+                                    <input type="radio" name="skills">
+                                </td>
+                                <td>
+                                    <input type="radio" name="skills">
+                                </td>
+                                <td>
+                                    <input type="radio" name="skills">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Word
+                                </td>
+                                <td>
+                                    <input type="radio" name="2_skills">
+                                </td>
+                                <td>
+                                    <input type="radio" name="2_skills">
+                                </td>
+                                <td>
+                                    <input type="radio" name="2_skills">
+                                </td>
+                                <td>
+                                    <input type="radio" name="2_skills">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    1C
+                                </td>
+                                <td>
+                                    <input type="radio" name="3_skills">
+                                </td>
+                                <td>
+                                    <input type="radio" name="3_skills">
+                                </td>
+                                <td>
+                                    <input type="radio" name="3_skills">
+                                </td>
+                                <td>
+                                    <input type="radio" name="3_skills">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Programming Language
+                                </td>
+                                <td>
+                                    <input type="radio" name="4_skills">
+                                </td>
+                                <td>
+                                    <input type="radio" name="4_skills">
+                                </td>
+                                <td>
+                                    <input type="radio" name="4_skills">
+                                </td>
+                                <td>
+                                    <input type="radio" name="4_skills">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div>
+                    <h3>
+                        Ability knowing English Language
+                    </h3>
+                    <input type="radio" name="language" value="Worst">
+                    <label for="Worst">1</label>
+                    <input type="radio" name="language" value="second">
+                    <label for="second">2</label>
+                    <input type="radio" name="language" value="third">
+                    <label for="third">3</label>
+                    <input type="radio" name="language" value="fourth">
+                    <label for="fourth">4</label>
+                    <input type="radio" name="language" value="fiveth">
+                    <label for="fiveth">5</label>
+                </div>
+                <hr>
+                <div>
+                    <label for="document"><b>Applicant Document(Diploma, Certificate)</b></label><br><br>
+                    <input type="file" name="document" id="document"><br><br><br>
+                    <label for="resume"><b>Upload Your Resume</b></label><br><br>
+                    <input type="file" name="resume" id="resume"><br><br><br>
+                    <label for="CL"><b>Cover Letter</b></label><br>
+                    <textarea id="CL" name="about" rows="15" cols="90"></textarea>
+                </div>
+                <hr>
+                <div class="button">
+                    <button type="submit">Apply</button>
+                </div>
+            </form>
+        </section>
+
+    </div>
+</body>
+</html>
